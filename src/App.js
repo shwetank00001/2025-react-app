@@ -1,15 +1,14 @@
-import Header from "./Header/Header";
-import { MainContent } from "./MainContent/MainContent";
-import Footer from "./Footer/Footer";
+import React from 'react'
+import Nav from './components/Nav'
+import Main from './components/Main'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Header />
-      <MainContent />
-      <Footer />
+      <Nav />
+      <Main />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
