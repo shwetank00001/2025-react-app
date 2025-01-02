@@ -1,5 +1,8 @@
 body{
   font-family: "Open Sans", serif;
+  box-sizing: border-box;
+  border: 2px solid black;
+  padding: 5px;
 }
 
 .navbar {
